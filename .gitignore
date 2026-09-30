@@ -1,0 +1,37 @@
+# CMake build files
+build/
+cmake-build-*/
+
+# Compiled binaries
+*.o
+*.obj
+*.so
+*.a
+*.out
+
+# Linux kernel module build files
+*.ko
+*.mod
+*.mod.c
+*.order
+*.symvers
+.modules.order
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Temporary files
+*.tmp
+*.swp
+*~
+# Runtime logs
+logs/*.log
+
+# IDE files
+.vscode/
+.idea/
+EOF
+# Runtime logs
+logs/*.log
